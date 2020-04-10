@@ -65,6 +65,7 @@ class _TitledBottomNavigationBarState extends State<TitledBottomNavigationBar> {
         ],
       ),
       child: SafeArea(
+        bottom: false,
         child: Container(
           height: BAR_HEIGHT,
           width: width,
